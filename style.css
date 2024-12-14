@@ -1,0 +1,76 @@
+/* Устанавливаем box-sizing для всех элементов */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(93, 155, 155);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 20px;
+    min-height: 100vh; /* Минимальная высота для body */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Убираем лишние отступы у изображения */
+    margin: 0 auto; /* Центрируем изображение */
+}
+
+ul li {
+    list-style-type: square;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    position: relative; /* Добавляем позиционирование */
+    z-index: 1; /* Устанавливаем z-index */
+}
+
+a {
+    color: #e1ff00;
+    text-decoration: none;
+    display: inline-block; /* Делаем ссылки блочными элементами */
+    margin: 5px 0; /* Добавляем отступы */
+}
+
+a:hover {
+    color: red;
+}
+
+/* Добавляем размеры для элементов */
+h1 {
+    width: 100%;
+    max-width: 800px;
+    min-width: 300px;
+}
+
+h2 {
+    width: 100%;
+    max-width: 600px;
+    min-width: 200px;
+}
+
+p {
+    width: 100%;
+    max-width: 800px;
+    min-width: 300px;
+}
+
+ul {
+    width: 100%;
+    max-width: 600px;
+    min-width: 200px;
+}
