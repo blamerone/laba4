@@ -20,7 +20,7 @@ header {
 
 main {
     width: 100%;
-    height: calc(100vh - 200px); /* Вычитаем высоту header и footer */
+    height: 200px; /* Вычитаем высоту header и footer */
     background-color: lightgreen;
 }
 
